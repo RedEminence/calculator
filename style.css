@@ -2,7 +2,7 @@ html {
 	background-image: url('background.jpg');
 }
 
-.wrapper {
+#wrapper {
 	width: 450px;
 	margin: 0 auto;
 	margin-top: 100px;
