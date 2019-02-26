@@ -1,0 +1,65 @@
+html {
+	background-image: url('background.jpg');
+}
+
+.wrapper {
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+button {
+	font-size: 32px;
+	border-radius: 8px;
+	user-select: none;
+}
+
+button:active {
+	transform: scale(1.20);
+}
+
+h1 {
+	font-size: 70px;
+
+}
+
+#display {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 70px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+	font-size: 54px;
+	text-align: right;
+}
+
+#numbers {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 7px;
+	height: 350px;
+	margin: 0 auto;
+	width: 70%;
+	float: left;
+}
+
+#operators {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 7px;
+	height: 350px;
+	width: 28%;
+	float: right;
+}
+
+#operators button {
+	background-color: #00FFFF;
+}
+
+#clear {
+	background-color: red;
+}
